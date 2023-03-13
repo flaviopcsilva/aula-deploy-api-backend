@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', async (req, res) => {
-    return res.json('Api está ok!')
+    return res.json('Api está ok! Parabéns')
 })
 
 const port = process.env.PORT || 3000
