@@ -15,7 +15,7 @@ app.get('/carros', async (req, res) => {
     }
 })
 
-app.post('/carros', async (req, res)=> {
+app.post('/carro', async (req, res)=> {
   try{
     console.log('post funcionando')
   } catch(error){
