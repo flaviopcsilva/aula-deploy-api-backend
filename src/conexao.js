@@ -6,7 +6,7 @@ const knex = require('knex')({
         user: process.env.USER,
         password: process.env.PASSWORD,
         database: process.env.DATABASE,
-        ssl: { rejecUnauthorized: false }
+        ssl: { rejectUnauthorized: false }
     }
 })
 module.exports = knex
